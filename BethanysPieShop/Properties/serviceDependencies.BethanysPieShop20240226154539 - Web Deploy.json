@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/BethanysPieShop20240226154539/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsBethanysPieShopDbContex_FED5E1F946",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/bethanyspieshopdbserver123987/databases/BethanysPieShop1_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:BethanysPieShopDbContextConnection",
+      "dynamicId": null
+    }
+  }
+}
